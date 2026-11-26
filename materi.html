@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi - DIGISMART</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">DIGI<span>SMART</span></div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="kuis.html">Kuis</a>
+        <button onclick="logout()" class="btn-login">Keluar</button>
+    </nav>
+</header>
+
+<main class="dashboard">
+    <h1>Materi Literasi Digital</h1>
+    <p>Pelajari berbagai pengetahuan penting di dunia digital.</p>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <h3>📰 Mengenali Hoaks</h3>
+            <p>Hoaks adalah informasi palsu yang disebarkan seolah-olah benar.</p>
+            <p>Tips: periksa sumber berita, tanggal publikasi, dan bandingkan dengan sumber terpercaya.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🔐 Keamanan Digital</h3>
+            <p>Keamanan digital merupakan upaya melindungi perangkat, akun, dan informasi pribadi.</p>
+            <p>Tips: gunakan kata sandi unik, aktifkan autentikasi dua faktor, dan jangan membagikan OTP.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🌐 Jejak Digital</h3>
+            <p>Jejak digital adalah rekaman aktivitas seseorang ketika menggunakan internet.</p>
+            <p>Tips: pikirkan dampak sebelum mengunggah sesuatu ke media sosial.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🤖 Literasi AI</h3>
+            <p>Kecerdasan buatan dapat membantu manusia mengolah informasi dan menyelesaikan pekerjaan.</p>
+            <p>Tips: verifikasi hasil AI dan jangan memasukkan data pribadi ke layanan AI sembarangan.</p>
+        </div>
+
+    </div>
+
+    <button onclick="completeMaterial()" class="btn-primary">
+        Tandai Materi Selesai
+    </button>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
